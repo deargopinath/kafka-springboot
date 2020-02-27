@@ -1,6 +1,6 @@
 # Stream kafka messages over web socket
 
-,,,ignorelang
+```ignorelang
 
 +-----------------------------+
 |          Browser            |
@@ -18,7 +18,7 @@
 |         Kafka topic         |
 +-----------------------------+
 
-,,,
+```
 
 # Instructions to deploy and demonstrate
 
