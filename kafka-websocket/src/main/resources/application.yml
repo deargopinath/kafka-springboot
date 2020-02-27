@@ -1,0 +1,7 @@
+## YAML Template.
+kafka:
+  bootstrap-servers: localhost:9092
+  topic: trades
+
+server:
+    document-root: www

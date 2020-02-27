@@ -1,0 +1,101 @@
+# Symbol , Name , Price  , Change , Volume , Market_Cap , PE_Ratio
+MSFT , Microsoft Corporation , 98.31 , -0.35 , 18.632M , 755.335B , 79.93
+GOOGL , Alphabet Inc. , 1,085.45 , -0.51 , 915,826 , 752.58B , 60.32
+GOOG , Alphabet Inc. , 1,079.24 , -0.45 , 655,512 , 750.576B , 59.97
+FB , Facebook Inc. , 185.93 , -0.97 , 10.638M , 538.199B , 30.78
+INTC , Intel Corporation , 54.75 , -0.46 , 17.804M , 255.135B , 27.51
+CSCO , Cisco Systems Inc. , 43.57 , -0.11 , 16.468M , 209.899B , 33.33
+T , AT&T Inc. , 32.78 , 0.45 , 35.205M , 201.302B , 6.88
+VZ , Verizon Communications Inc. , 48.64 , 0.05 , 13.541M , 200.976B , 6.38
+TSM , Taiwan Semiconductor Manufacturing Company Limited , 39.27 , -0.38 , 7.699M , 197.613B , 17.41
+ORCL , Oracle Corporation , 46.46 , -0.44 , 12.497M , 189.664B , 54.34
+CHL , China Mobile Limited , 45.64 , -0.56 , 1.501M , 187.598B , 10.3
+NVDA , NVIDIA Corporation , 247.69 , 0.15 , 10.469M , 150.357B , 41.17
+SAP , SAP SE , 114.03 , 0.4 , 1.999M , 135.547B , 27.68
+IBM , International Business Machines Corporation , 144.07 , -0.6 , 3.39M , 132.252B , 23.48
+ADBE , Adobe Systems Incorporated , 245.15 , 1.24 , 2.503M , 120.729B , 65.39
+TXN , Texas Instruments Incorporated , 110.75 , -0.32 , 2.71M , 108.725B , 30.71
+ACN , Accenture plc , 155.59 , 0.28 , 1.885M , 100.058B , 27.34
+AVGO , Broadcom Inc. , 243.53 , 2.97 , 1.928M , 99.966B , 13.27
+CRM , salesforce.com inc. , 128.74 , 0.65 , 5.92M , 95.642B , 757.29
+DCM , NTT DOCOMO Inc American Deposi , 25.6 , 0 , 511,401 , N/A , N/A
+QCOM , QUALCOMM Incorporated , 59.08 , 0.26 , 11.655M , 87.593B , N/A
+BIDU , Baidu Inc. , 240.28 , -0.11 , 4.681M , 83.793B , 28.89
+MU , Micron Technology Inc. , 61.49 , 1.52 , 71.272M , 71.314B , 9.61
+ADP , Automatic Data Processing Inc. , 130.27 , 0.91 , 1.046M , 57.387B , 33.66
+VMW , VMware Inc. , 136.77 , -1.46 , 1.937M , 55.432B , 99.11
+AMX , America Movil S.A.B. de C.V. , 16.31 , -0.24 , 2.923M , 54.104B , 33.98
+ATVI , Activision Blizzard Inc. , 70.8 , -0.94 , 5.147M , 53.893B , 196.67
+AMAT , Applied Materials Inc. , 50.77 , 0.43 , 9.512M , 53.344B , 17.05
+JD , JD.com Inc. , 36.7 , -0.02 , 13.339M , 52.379B , N/A
+INTU , Intuit Inc. , 197.79 , 1.56 , 1.992M , 50.656B , 54.2
+TMUS , T-Mobile US Inc. , 56.98 , -0.04 , 2.354M , 48.253B , 10.95
+TEF , Telefonica S.A. , 9.16 , -0.05 , 948,378 , 47.095B , 13.1
+ORAN , Orange S.A. , 17.57 , 0.09 , 442,610 , 46.515B , 23.18
+CTSH , Cognizant Technology Solutions Corporation , 75.93 , 0.17 , 2.507M , 44.487B , 30.6
+CHU , China Unicom (Hong Kong) Limited , 14.13 , 0.05 , 174,798 , 43.768B , 128.45
+CCI , Crown Castle International Corp. (REIT) , 101.85 , -0.31 , 1.546M , 42.25B , 100.84
+EA , Electronic Arts Inc. , 131.48 , -2.02 , 3.152M , 40.329B , 41.01
+INFY , Infosys Limited , 18.24 , 0.43 , 13.024M , 39.717B , 16.58
+CHA , China Telecom Corporation Limited , 47.31 , -0.14 , 37,971 , 38.183B , 13.14
+NXPI , NXP Semiconductors N.V. , 111.51 , -1.04 , 4.018M , 38.359B , 17.4
+BCE , BCE Inc. , 42.38 , -0.11 , 573,788 , 37.867B , 17.45
+HPQ , HP Inc. , 21.92 , 0.02 , 8.252M , 35.979B , 9.65
+ADI , Analog Devices Inc. , 95.04 , 0.65 , 1.612M , 35.146B , 44.85
+FIS , Fidelity National Information Services Inc. , 103.8 , -0.07 , 1.016M , 34.359B , 26.41
+NOK , Nokia Corporation , 6.09 , 0 , 8.673M , 34.059B , N/A
+LRCX , Lam Research Corporation , 204.37 , 1.06 , 1.935M , 33.526B , 22.45
+TEL , TE Connectivity Ltd. , 94.32 , -0.19 , 1.396M , 33.025B , 27.24
+NOW , ServiceNow Inc. , 175.52 , 1.56 , 1.533M , 31.01B , N/A
+EQIX , Equinix Inc. (REIT) , 387 , 2.58 , 394,787 , 30.75B , 120.67
+ADSK , Autodesk Inc. , 138.92 , -0.39 , 3.382M , 30.439B , N/A
+RHT , Red Hat Inc. , 165.09 , 0.83 , 1.245M , 29.332B , 117.92
+NTES , NetEase Inc. , 223.03 , -9.5 , 2.01M , 29.29B , 17.49
+CHT , Chunghwa Telecom Co. Ltd. , 36.62 , 0.13 , 62,880 , 28.553B , 21.42
+WDAY , Workday Inc. , 130.5 , 0.98 , 1.532M , 28.074B , N/A
+BT , BT Group plc , 13.9 , 0.14 , 3.273M , 27.399B , 11.63
+APH , Amphenol Corporation , 87.8 , -0.4 , 807,843 , 26.466B , 42.62
+WDC , Western Digital Corporation , 87.46 , -1.04 , 2.607M , 26.172B , 68.17
+TWTR , Twitter Inc. , 33.52 , 0.1 , 14.454M , 25.137B , 1,676.00
+TLK , Perusahaan Perseroan (Persero) PT Telekomunikasi Indonesia Tbk , 24.87 , 0.26 , 465,844 , 24.82B , 15.54
+RCI , Rogers Communications Inc. , 47.89 , -0.96 , 578,735 , 24.757B , 18.75
+WB , Weibo Corporation , 102.4 , -1.08 , 1.741M , 22.805B , 65.64
+GLW , Corning Incorporated , 27.33 , -0.44 , 4.567M , 22.693B , N/A
+MCHP , Microchip Technology Incorporated , 94.85 , 0.77 , 1.08M , 22.293B , 94.1
+KYO , Kyocera Corporation , 60.3 , -0.31 , 9,232 , 22.279B , 19.24
+STM , STMicroelectronics N.V. , 23.79 , 0.49 , 7.048M , 21.444B , 99.13
+TU , TELUS Corporation , 35.25 , -0.16 , 456,061 , 21.006B , N/A
+S , Sprint Corporation , 5.16 , 0.02 , 6.821M , 20.669B , 2.85
+VIV , Telefônica Brasil S.A. , 12.44 , 0.04 , 1.24M , 20.247B , 15.02
+CTL , CenturyLink Inc. , 18.52 , -0.49 , 16.329M , 19.98B , 8.38
+CERN , Cerner Corporation , 59.44 , -0.03 , 1.556M , 19.723B , 23.13
+PANW , Palo Alto Networks Inc. , 209.15 , 2.13 , 1.149M , 19.21B , N/A
+ANET , Arista Networks Inc. , 252.61 , -3.37 , 512,596 , 18.792B , 47.23
+HRS , Harris Corporation , 153.91 , -0.02 , 614,684 , 18.274B , 36.55
+NTAP , NetApp Inc. , 68.08 , 1.29 , 8.493M , 18.24B , N/A
+SWKS , Skyworks Solutions Inc. , 99.58 , -0.48 , 1.344M , 18.131B , 22.56
+SBAC , SBA Communications Corporation , 156.8 , -1.15 , 517,176 , 18.061B , 182.33
+MSI , Motorola Solutions Inc. , 110.86 , 0.02 , 1.345M , 17.974B , N/A
+KLAC , KLA-Tencor Corporation , 113.53 , 0.23 , 1.146M , 17.696B , 27.29
+TI , Telecom Italia S.p.A. , 8.57 , 0.02 , 78,467 , 17.448B , 13.39
+XLNX , Xilinx Inc. , 68.74 , -0.02 , 2.303M , 17.419B , 35.75
+TI-A , Telecom Italia S.p.A. , 7.45 , -0.13 , 19,848 , 17.118B , 11.64
+GIB , CGI Group Inc. , 60.48 , -0.06 , 221,452 , 17.027B , 22.15
+SPLK , Splunk Inc. , 116.31 , -0.33 , 2.282M , 16.863B , N/A
+STX , Seagate Technology plc , 58.28 , 0 , 1.873M , 16.73B , 26.52
+MXIM , Maxim Integrated Products Inc. , 58.83 , -0.1 , 2.544M , 16.453B , 44.17
+VRSN , VeriSign Inc. , 128.17 , -0.04 , 529,000 , 15.776B , 34.83
+CHKP , Check Point Software Technologies Ltd. , 96.41 , -0.21 , 741,640 , 15.333B , 20
+SHOP , Shopify Inc. , 143.05 , 2.22 , 908,634 , 15.121B , N/A
+TEAM , Atlassian Corporation Plc , 63.92 , 0.98 , 1.057M , 14.958B , N/A
+CA , CA Inc. , 35.57 , 0.13 , 1.902M , 14.819B , 35.15
+CTXS , Citrix Systems Inc. , 106.56 , 0.01 , 894,120 , 14.442B , N/A
+SKM , SK Telecom Co. Ltd. , 22.85 , -0.4 , 707,919 , 14.364B , 6.04
+MSCI , MSCI Inc. , 159.13 , 0.77 , 431,269 , 14.166B , 48.08
+WUBA , 58.com Inc. , 81 , -3.55 , 3.041M , 13.883B , 58.7
+ANSS , ANSYS Inc. , 163.22 , -0.94 , 483,057 , 13.713B , 50.55
+BR , Broadridge Financial Solutions Inc. , 116.25 , 0.22 , 605,949 , 13.708B , 37.26
+SNAP , Snap Inc. , 10.6 , -0.05 , 13.756M , 13.337B , N/A
+IPGP , IPG Photonics Corporation , 248.17 , 2.01 , 225,397 , 13.325B , 39.02
+AKAM , Akamai Technologies Inc. , 77.48 , 0.46 , 1.578M , 13.22B , 61.49
+SNPS , Synopsys Inc. , 88.56 , -1.77 , 1.937M , 13.171B , 290.36

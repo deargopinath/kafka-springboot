@@ -1,0 +1,6 @@
+## YAML Template.
+kafka:
+    bootstrap-servers: localhost:9092
+    topic: trades
+server:
+    port: 9090
