@@ -123,14 +123,5 @@ public class KafkaWriter implements CommandLineRunner {
     private String getJSON(LinkedHashMap<String,String> hashMap) {
         Gson gson = new GsonBuilder().disableHtmlEscaping().create();
 	return gson.toJson(hashMap);
-	//System.out.println(jsonString);
-       /*         
-          String json = ("{");
-          json = hashMap.keySet().stream()
-               .map((x) -> ('"' + x + '"' + ':' + '"' + hashMap.get(x) + '"' + ','))
-               .reduce(json, String::concat);
-          json += "}";
-          return json.replaceAll(",}", "}");
-       */ 
     }
 }
