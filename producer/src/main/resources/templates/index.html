@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Kafka producer</title>
+        <link rel="shortcut icon" th:href="${favicon}" />
+	<link href="/css/bootstrap.min.css" media="screen, print" type="text/css" rel="stylesheet" />
+        <link href="login.css" rel="stylesheet">
+    </head>
+    <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+            <div class="row">
+                <div class="col-sm-3" style="max-width: 100px;">
+                    <a class="navbar-brand" href="#">
+                        <img th:src="${logo}" alt="Kafka producer" style="max-width:64px;"/>
+                    </a>
+                </div>
+                <div class="col" style="width: 320px;">
+                    <h1>Kafka Producer</h1>
+                </div>
+            </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container theme-showcase" role="main">
+      <div class="card" style="padding-left: 24px;">
+        <div class="row">
+            <p>Messages sent to Kafka</p>
+        </div>
+          <div class="row">
+              <textarea id="resultArea" rows="3" style="width: 96%;"></textarea>
+          </div>
+         <div class="row">
+             <button id="sendButton" style="min-width: 150px; max-width: 150px; margin-top: 4px; margin-bottom: 4px;"
+                 class="btn btn-danger" onclick="sendMessage()">Send messages
+             </button>
+        </div>
+      </div>
+    </div>
+	  <script th:inline="javascript">
+          function sendMessage() {
+                var xhr = new XMLHttpRequest();
+                xhr.onreadystatechange = function() {
+                    if (this.readyState === 4 && this.status === 200) {
+                        document.getElementById("resultArea").innerHTML = this.responseText;
+                    }
+                };
+                xhr.open('GET', '/publish/message');
+                xhr.setRequestHeader('Content-Type', 'application/json');
+                xhr.send();
+           }
+      </script>
+    </body>
+</html>

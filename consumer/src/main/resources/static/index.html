@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <title>Kafka Consumer</title>
+    <link href="/bootstrap.min.css" rel="stylesheet">
+    <link href="/main.css" rel="stylesheet">
+    <script src="/jquery.min.js"></script>
+    <script src="/sockjs.min.js"></script>
+    <script src="/stomp.min.js"></script>
+    <script src="/app.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+            <div class="row">
+                <div class="col-sm-3" style="max-width: 100px;">
+                    <a class="navbar-brand" href="#">
+                        <img src=logo.png alt="Kafka consumer" style="max-width:64px;"/>
+                    </a>
+                </div>
+                <div class="col" style="width: 330px;">
+                    <h1>Kafka Consumer</h1>
+                </div>
+            </div>
+        </div>
+      </div>
+    </nav>
+    <hr>
+    <div class="container theme-showcase" role="main">
+      <div style="padding-left: 24px; padding-bottom: 16px;">
+        <div class="row">
+            <span id="lastUpdated"></span>
+        </div>
+          <div class="row">
+            <div class="col-md-6" style="max-width: 200px;">
+                <button id="connect" class="btn btn-success" type="submit">Connect</button>
+            </div>
+            <div class="col-md-6" style="max-width: 200px;">
+                <button id="disconnect" class="btn btn-danger" type="submit" disabled="disabled">Disconnect</button>
+            </div>
+          </div>
+          <br>
+      </div>
+    </div>
+    <div class="container theme-showcase" role="main">
+            <table id="conversation" class="table table-bordered">
+            <thead class="btn-secondary">
+            <tr id="tableHeading">
+                <td>Symbol</td><td>Name</td><td>Price</td><td>Change</td><td>Volume</td><td>Market cap</td><td>PE ratio</td>
+            </tr>
+            </thead>
+            <tbody id="trades">
+            </tbody>
+        </table>
+        </div>
+</body>
+</html>
