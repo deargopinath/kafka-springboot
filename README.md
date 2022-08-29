@@ -1,5 +1,6 @@
 # Kafka data streams - Demo
 
+```
 +---------------+
 |    Browser    |
 +-------+-------+
@@ -22,6 +23,7 @@
 |   Producer    |
 +---------------+
 
+```
 
 # Instructions to deploy and demonstrate
 ----------------------------------------
